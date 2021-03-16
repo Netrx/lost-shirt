@@ -438,6 +438,11 @@ ul > li {
     background: url('./img/bg/pattern.png') center center / 500px;
     position: relative;
 }
+
+.collections__item:nth-child(even) {
+    margin-right: 13px;
+}
+
 .collections__item::before {
     content: "";
     display: block;
